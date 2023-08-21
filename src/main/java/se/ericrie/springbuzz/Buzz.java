@@ -5,7 +5,7 @@ import org.springframework.core.annotation.Order;
 
 @Named
 @Order(2)
-public class Buzz extends DivisibilityRule{
+public class Buzz extends DivisibilityRule {
 
     public Buzz() {
         super(5);
